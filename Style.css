@@ -1,0 +1,253 @@
+body{
+    background: #1c92d2; 
+    background: -webkit-linear-gradient(to right, #f2fcfe, #55b1e2, #f2fcfe);
+    background: linear-gradient(to right, #f2fcfe, #55b1e2, #f2fcfe );
+}
+.Calculator{
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    background: -webkit-linear-gradient(to right, #c0e9ff, #f2fcfe, #c0e9ff);
+    background: linear-gradient(to right, #c0e9ff, #f2fcfe, #c0e9ff );
+    height: 520px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid #00f0b4;   
+}
+.boton-igual{
+    background-color: #00f0b4;
+    color: #ffffff;
+    width: 70px;
+    height: 143px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-color: #02975e;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.limpiar{
+    background: -webkit-linear-gradient(to right, #f84444, #b40404, #f84444); 
+    background: linear-gradient(to right, #f84444, #b40404, #f84444);
+    border-color: #990000;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40%;
+    cursor: pointer;
+    outline:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnoperador{
+    background: #d6fff5;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40%;
+    cursor: pointer;
+    outline:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boton{
+    background: #ffffff;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40%;
+    cursor: pointer;
+    outline:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pantalla{
+    height: 100px;
+    background-color: #d6fff5;
+    margin: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid #00f0b4;
+}
+
+.cambio{
+    background-color: #b1b1b1;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+    margin-left: 255px;
+}
+.cambiar{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.V_anterior{
+    color: #5c5c5c;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline:none;
+    border:none;
+    cursor: default;
+}
+.V_actual{
+    color: #000000;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline:none;
+    border:none;
+    cursor:default;
+}
+
+
+/*MODO OSCURO*/
+
+
+    .body_oscuro{
+        background: #000000; 
+        background: -webkit-linear-gradient(to right, #353547, #000000, #353547);  
+        background: linear-gradient(to right, #353547, #000000, #353547);   
+    }
+    .Calculator_oscuro{
+        margin: auto;
+        margin-top: 5%;
+        padding: 20px;
+        background: -webkit-linear-gradient(to right, #1c2538, #454577, #1c2538);
+        background: linear-gradient(to right, #1c2538, #454577, #1c2538 );
+        height: 520px;
+        width: 300px;
+        border-radius: 20px;
+        border: 2px solid #000416;   
+    }
+    .boton-igual_oscuro{
+        background-color: #00f0b4;
+        color: #1e2a42;
+        width: 70px;
+        height: 143px;
+        font-size: 35px;
+        font-weight: bold;
+        border-radius: 30px;
+        border-color: #02975e;
+        cursor: pointer;
+        outline: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .limpiar_oscuro{
+        background: -webkit-linear-gradient(to right, #f84444, #b40404, #f84444); 
+        background: linear-gradient(to right, #f84444, #b40404, #f84444);
+        border-color: #990000;
+        color: #1e2a42;
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 40%;
+        cursor: pointer;
+        outline:none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .btnoperador_oscuro{
+        background: -webkit-linear-gradient(to right, #24324e, #1e2a42, #24324e); 
+        background: linear-gradient(to right, #24324e, #1e2a42, #24324e);
+        color: #00f0a0;
+        border-color:#182135 ;
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 40%;
+        cursor: pointer;
+        outline:none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .boton_oscuro{
+        background: -webkit-linear-gradient(to right, #36476b, #24314d, #36476b); 
+        background: linear-gradient(to right, #36476b, #24314d, #36476b);
+        border-color:#24314d ;
+        color: #ffffff;
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 40%;
+        cursor: pointer;
+        outline:none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .pantalla_oscuro{
+        height: 100px;
+        background-color: #1e2a42;
+        margin: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border: 2px solid #000416;
+    }
+    
+    .cambio_oscuro{
+        background-color: #00f0a0;
+        width: 40px;
+        height: 20px;
+        border-radius: 15px;
+        margin-left: 255px;
+    }
+    .cambiar_oscuro{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 50%;
+        cursor: pointer;
+    }
+    .V_anterior_oscuro{
+        color: #058359;
+        background-color: transparent;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: right;
+        font-size: 20px;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        outline:none;
+        border:none;
+        cursor: default;
+    }
+    .V_actual_oscuro{
+        color: #00f0a0;
+        background-color: transparent;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: right;
+        font-size: 35px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        outline:none;
+        border:none;
+        cursor:default;
+    }
